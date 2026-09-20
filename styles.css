@@ -760,6 +760,128 @@ p {
   color: var(--red);
 }
 
+/* ==========================================================================
+   JOURNEY AT A GLANCE
+   ========================================================================== */
+
+/* Milestones */
+
+.glance-milestones {
+  padding: 1.5rem;
+  background: var(--cream-light);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(31, 41, 55, 0.08);
+  box-shadow: var(--shadow-paper);
+}
+
+.milestone-label {
+  font-family: var(--font-hand);
+  color: var(--red);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  margin-top: -1rem;
+  transform: rotate(-2deg);
+}
+
+.milestone-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.milestone {
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed rgba(31, 41, 55, 0.15);
+}
+
+.milestone:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.milestone-year {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.milestone p {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--charcoal-subtle);
+}
+
+
+.glance-section {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.glance-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--charcoal);
+  margin-bottom: 2.5rem;
+}
+
+.glance-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.glance-item {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  transition: transform var(--transition-fast);
+}
+
+.glance-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.glance-item:hover {
+  transform: translateY(-4px);
+}
+
+.glance-item:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .glance-section {
+    padding: 2rem 1rem;
+  }
+
+  .glance-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .glance-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
 /* Scroll Animations */
 .animate-on-scroll {
   opacity: 0;
@@ -794,7 +916,7 @@ p {
   }
 
   .nav-brand {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .hero-section {
