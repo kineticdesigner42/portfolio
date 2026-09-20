@@ -75,16 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ==========================================================================
      2. SCROLL OBSERVER & CURRENT CATEGORY INDICATOR PILL
      ========================================================================== */
-  const observerOptions = window.innerWidth <= 768? {
-      root: null,
-      rootMargin: '0px 0px 30% 0px',
-      threshold: 0
-    }
-  : {
-      root: null,
-      rootMargin: '-30% 0px -45% 0px',
-      threshold: 0.1
-    };
+  const observerOptions = {
+    root: null,
+    rootMargin: '-30% 0px -45% 0px',
+    threshold: 0.1
+  };
 
   const sectionObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
