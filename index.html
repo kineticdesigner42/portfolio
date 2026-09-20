@@ -1,1 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddhant Kulkarni — Design Portfolio 2026–27</title>
+  <meta name="description" content="Design portfolio of Siddhant Kulkarni exploring product design, interaction, experience, games, HCI research and AI.">
+  <meta property="og:title" content="Siddhant Kulkarni — Design Portfolio 2026–27">
+  <meta property="og:description" content="Design portfolio of Siddhant Kulkarni, 12th grader at Fergusson College, Pune.">
+  <meta property="og:image" content="assets/01/01_image1.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- PERSISTENT TOP HEADER WITH HAMBURGER MENU ICON -->
+  <header class="top-navbar">
+    <a href="#cover" class="nav-brand">SIDDHANT KULKARNI</a>
+
+    <div class="nav-header-right">
+      <!-- Current Active Category Pill Indicator -->
+      <div class="current-category-pill hidden" id="currentCategoryPill">
+        <span id="currentCategoryName">UX Research</span>
+      </div>
+
+      <!-- Hamburger Menu Icon Button -->
+      <button class="hamburger-btn" id="btnHamburger" aria-label="Toggle Category Navigation Menu" title="Menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+
+    <!-- Hamburger Menu Drawer Overlay -->
+    <div class="hamburger-drawer" id="hamburgerDrawer">
+      <div class="drawer-header">Explore Categories</div>
+      <nav class="drawer-tags-list" id="drawerTagsList">
+        <a href="#diksha" class="tape-tag tag-ux" data-category="ux-research">UX Research</a>
+        <a href="#whatsapp-discord" class="tape-tag tag-interaction" data-category="interaction-design">Interaction Design</a>
+        <a href="#food-ordering" class="tape-tag tag-experience" data-category="experience-design">Experience Design</a>
+        <a href="#small-frustrations" class="tape-tag tag-product" data-category="product-design">Product Design</a>
+        <a href="#cor-game" class="tape-tag tag-game" data-category="game-design">Game Design</a>
+        <a href="#small-communities" class="tape-tag tag-web" data-category="web-design">Web Design</a>
+        <a href="#hci-research" class="tape-tag tag-hci" data-category="hci-research">HCI Research</a>
+        <a href="#ai-benchmarking" class="tape-tag tag-ai" data-category="ai-benchmarking">AI Benchmarking</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN STORY VIEW CONTAINER -->
+  <main class="story-container" id="storyContainer">
+
+    <!-- SLIDE 1: HERO COVER -->
+    <section class="story-section hero-section animate-on-scroll" id="cover">
+      <div class="hero-header-box">
+        <div class="hero-note-annotation">
+          <span class="hand-note">12th grader at Fergusson College, Pune</span>
+          <svg class="sketchy-arrow" viewBox="0 0 60 40">
+            <path d="M5,10 Q35,5 50,30 M42,22 L50,30 L38,32" />
+          </svg>
+        </div>
+        <div class="hero-author">SIDDHANT KULKARNI</div>
+        <h1 class="hero-title">Portfolio</h1>
+        <div class="hero-subtitle">2026–27</div>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#making-things" class="btn-primary">
+          <span>START THE JOURNEY</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- SLIDE 2 (Folder 01): MAKING THINGS -->
+    <section class="story-section animate-on-scroll" id="making-things" data-category="none">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I started by making things.</h2>
+          <p class="story-paragraph">
+            Before I knew what design was, I was already making the things I imagined. I built with whatever caught my attention. I once built a soft-toy robot with a Scratch programmed display for eyes, cutting and stuffing its velvet body myself. I was simply curious about turning an idea in my head into something real. That instinct to make, explore and make things my own was where my design journey began.
+          </p>
+          <div class="hand-note rotate-right">
+            velvet cloth with polyester stuffing • programmed in scratch • moving eyes and expressive mouth
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/01/01_image1.png">
+            <img src="assets/01/01_image1.png" alt="Velvet robot prototype" loading="lazy">
+            <div class="card-caption">Velvet robot prototype</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/01/02_image3.png">
+            <img src="assets/01/02_image3.png" alt="Soft toy robot assembly" loading="lazy">
+            <div class="card-caption">Soft toy robot assembly</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/01/05_image5.png">
+            <img src="assets/01/05_image5.png" alt="Scratch code interface for robot eyes" loading="lazy">
+            <div class="card-caption">Scratch code for eyes</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/01/06_image7.png">
+            <img src="assets/01/06_image7.png" alt="Robot face & stuffed body" loading="lazy">
+            <div class="card-caption">Robot face & stuffed body</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/01/07_image9.png">
+            <img src="assets/01/07_image9.png" alt="Hand-sewing velvet cloth" loading="lazy">
+            <div class="card-caption">Hand-sewing velvet cloth</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/01/08_image11.png">
+            <img src="assets/01/08_image11.png" alt="Soft-toy robot complete model" loading="lazy">
+            <div class="card-caption">Completed soft-toy robot</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3 (Folder 02): CURIOSITY TAKING FORM -->
+    <section class="story-section animate-on-scroll" id="curiosity" data-category="none">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Curiosity kept taking form.</h2>
+          <p class="story-paragraph">
+            Curiosity kept taking me from one thing to another. I drew characters, played with textures, clay, experimented with food, built objects, and explored digital tools. I never really had a fixed idea of what I was making - I just wanted to see where an idea could take me.
+          </p>
+          <div class="hand-note rotate-left">
+            Chocolate brownie with ice cream, apple crumble and caramel sauce • Minecraft 16x texture packs (5k+ downloads on PlanetMinecraft)
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/02/01_image13.png">
+            <img src="assets/02/01_image13.png" alt="Working on floor with materials" loading="lazy">
+            <div class="card-caption">Assembling velvet & polyester</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/02/02_image14.png">
+            <img src="assets/02/02_image14.png" alt="Robot face cutout" loading="lazy">
+            <div class="card-caption">Robot face cutout</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/02/03_image15.png">
+            <img src="assets/02/03_image15.png" alt="Scratch code for eyes" loading="lazy">
+            <div class="card-caption">Scratch code eyes</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/02/04_image16.png">
+            <img src="assets/02/04_image16.png" alt="Soft toy assembly step" loading="lazy">
+            <div class="card-caption">Soft toy assembly step</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/02/05_image17.jpeg">
+            <img src="assets/02/05_image17.jpeg" alt="Hand-sewing velvet body" loading="lazy">
+            <div class="card-caption">Hand-sewing body</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/02/06_image18.png">
+            <img src="assets/02/06_image18.png" alt="Soft-toy robot" loading="lazy">
+            <div class="card-caption">Soft-toy robot</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/02/07_image19.png">
+            <img src="assets/02/07_image19.png" alt="Craft materials setup" loading="lazy">
+            <div class="card-caption">Craft materials setup</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/02/08_image21.png">
+            <img src="assets/02/08_image21.png" alt="Final toy demonstration" loading="lazy">
+            <div class="card-caption">Final toy demonstration</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4 (Folder 03): UX RESEARCH - DIKSHA -->
+    <section class="story-section animate-on-scroll" id="diksha" data-category="ux-research" data-label="UX Research" data-tagclass="tag-ux">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Then I started asking why.</h2>
+          <p class="story-paragraph">
+            With DIKSHA, I began looking beyond what something looked like and started asking how people actually experienced it. What do they click? What do they expect next? Where do they hesitate? I started mapping user flows and observing behaviour rather than assuming that a visually simple interface would automatically be easy to use.
+          </p>
+
+          <div class="step-list">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <div>
+                <div class="step-content-head">OBSERVE</div>
+                <div class="step-content-text">Interviewed two extreme personas (organized/not organized, self study/tuition) to understand how they use the product.</div>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <div>
+                <div class="step-content-head">ANALYZE AND TEST</div>
+                <div class="step-content-text">Created path exploration trees for various user journeys. Tested improved paths with users.</div>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <div>
+                <div class="step-content-head">RESULTS</div>
+                <div class="step-content-text">Proposed design leads to 14-18% faster access to content.</div>
+              </div>
+            </div>
+          </div>
+
+          <table class="stats-table">
+            <thead>
+              <tr>
+                <th>User Type</th>
+                <th>Current vs Proposed</th>
+                <th>Improvement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Guest user</td>
+                <td>16 to 13 clicks</td>
+                <td class="highlight-stat">18.75% fewer clicks</td>
+              </tr>
+              <tr>
+                <td>Logged-in user</td>
+                <td>7 to 6 clicks</td>
+                <td class="highlight-stat">14.29% fewer clicks</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/03/01_image23.png">
+            <img src="assets/03/01_image23.png" alt="Texture and mandala art" loading="lazy">
+            <div class="card-caption">Texture & mandala art</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/03/05_image27.png">
+            <img src="assets/03/05_image27.png" alt="Clay figures" loading="lazy">
+            <div class="card-caption">Clay characters</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/03/06_image28.png">
+            <img src="assets/03/06_image28.png" alt="Chocolate brownie dessert" loading="lazy">
+            <div class="card-caption">Brownie with ice cream & crumble</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/03/08_image30.png">
+            <img src="assets/03/08_image30.png" alt="Minecraft texture pack 5k+ downloads" loading="lazy">
+            <div class="card-caption">Minecraft 16x texture pack (5k+ downloads)</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/03/10_image32.png">
+            <img src="assets/03/10_image32.png" alt="Character sketches" loading="lazy">
+            <div class="card-caption">Character & object sketches</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/03/11_image33.png">
+            <img src="assets/03/11_image33.png" alt="3D papercraft city" loading="lazy">
+            <div class="card-caption">Papercraft 3D objects</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/03/13_image35.png">
+            <img src="assets/03/13_image35.png" alt="Origami isometric structure" loading="lazy">
+            <div class="card-caption">Origami isometric structure</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/03/14_image36.png">
+            <img src="assets/03/14_image36.png" alt="Architectural cardboard assembly" loading="lazy">
+            <div class="card-caption">Architectural cardboard assembly</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5 (Folder 04): INTERACTION DESIGN - WHATSAPP & DISCORD -->
+    <section class="story-section animate-on-scroll" id="whatsapp-discord" data-category="interaction-design" data-label="Interaction Design" data-tagclass="tag-interaction">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Then I started asking why not.</h2>
+          <p class="story-paragraph">
+            Once I became comfortable asking why something worked the way it did, I started asking a different question: why not change it? With WhatsApp meets Discord, I explored what might happen when familiar interactions and features were brought together differently. I was no longer only analysing existing experiences. I was beginning to imagine alternatives.
+          </p>
+          <div class="hand-note rotate-right">
+            Slack has threads, Discord has channels. What about WhatsApp? Assign messages part of the same conversation a color!
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/04/01_image40.png">
+            <img src="assets/04/01_image40.png" alt="DIKSHA Digital Textbooks" loading="lazy">
+            <div class="card-caption">DIKSHA Digital Textbooks platform</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/04_image42.png">
+            <img src="assets/04/04_image42.png" alt="DIKSHA User Personas - Ashish and Rohan" loading="lazy">
+            <div class="card-caption">Extreme personas (Ashish & Rohan)</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/05_image43.png">
+            <img src="assets/04/05_image43.png" alt="Path exploration tree diagram" loading="lazy">
+            <div class="card-caption">Path exploration trees analysis</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/06_image44.png">
+            <img src="assets/04/06_image44.png" alt="User journey click count comparison" loading="lazy">
+            <div class="card-caption">User journey click comparison</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/07_image45.png">
+            <img src="assets/04/07_image45.png" alt="Task flow optimization chart" loading="lazy">
+            <div class="card-caption">Task flow optimization chart</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/08_image47.png">
+            <img src="assets/04/08_image47.png" alt="Usability test metrics table" loading="lazy">
+            <div class="card-caption">Usability test metrics table</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/10_image50.png">
+            <img src="assets/04/10_image50.png" alt="Proposed DIKSHA mobile wireframe" loading="lazy">
+            <div class="card-caption">Proposed mobile wireframe</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/04/12_image53.png">
+            <img src="assets/04/12_image53.png" alt="Final high-fidelity UI proposal" loading="lazy">
+            <div class="card-caption">Final high-fidelity UI proposal</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6 (Folder 05): EXPERIENCE DESIGN - FOOD ORDERING -->
+    <section class="story-section animate-on-scroll" id="food-ordering" data-category="experience-design" data-label="Experience Design" data-tagclass="tag-experience">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I started reimagining experiences.</h2>
+          <p class="story-paragraph">
+            I was given an opportunity to help a startup rethink food ordering. Instead of a fixed sequence of menus and choices, I explored how the experience could adapt to what a person feels like in that moment - from knowing exactly what they want to being open to surprise. What if an app could understand not just what you want, but how you want to choose?
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">User Moods Options</div>
+            <div class="annotation-desc">Whatever • Surprise me • Something for this mood • Something for this occasion • Something for this gathering</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/05/01_image55.png">
+            <img src="assets/05/01_image55.png" alt="WhatsApp meets Discord concept" loading="lazy">
+            <div class="card-caption">WhatsApp meets Discord concept</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/05/03_image57.png">
+            <img src="assets/05/03_image57.png" alt="Slack vs Discord analysis" loading="lazy">
+            <div class="card-caption">Slack & Discord feature comparison</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/05/04_image58.png">
+            <img src="assets/05/04_image58.png" alt="Hand-drawn paper wireframes" loading="lazy">
+            <div class="card-caption">Hand-drawn channels wireframes</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/05/05_image59.png">
+            <img src="assets/05/05_image59.png" alt="Channel structure wireframe" loading="lazy">
+            <div class="card-caption">Channel structure wireframe</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/05/06_image60.png">
+            <img src="assets/05/06_image60.png" alt="Color coded thread wireframe" loading="lazy">
+            <div class="card-caption">Color-coded thread wireframe</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/05/08_image61.png">
+            <img src="assets/05/08_image61.png" alt="Color coded chat prototype" loading="lazy">
+            <div class="card-caption">Color-coded chat prototype</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/05/10_image62.png">
+            <img src="assets/05/10_image62.png" alt="Message threading interaction model" loading="lazy">
+            <div class="card-caption">Message threading interaction model</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7 (Folder 06): EXPERIENCE DESIGN - NIPUN LAKSHYA -->
+    <section class="story-section animate-on-scroll" id="nipun-lakshya" data-category="experience-design" data-label="Experience Design" data-tagclass="tag-experience">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I designed experiences for low resource settings.</h2>
+          <p class="story-paragraph">
+            After solving for a 'premium' customer experience with no constraints on the customer side, I wanted to design an experience for low resource settings e.g. a classroom introducing edtech but only with one phone for 60 students. I designed the story tag concept to solve for this - creating a fun social experience while checking for oral reading fluency.
+          </p>
+          <div class="hand-note rotate-left">
+            One phone for 60 students • Collective oral reading story tag concept
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/06/01_image63.png">
+            <img src="assets/06/01_image63.png" alt="Chef selection and Macro options" loading="lazy">
+            <div class="card-caption">Chef selection & Macro options</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/06/02_image64.png">
+            <img src="assets/06/02_image64.png" alt="Today's Luncheon app screens" loading="lazy">
+            <div class="card-caption">Today's Luncheon app screens</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8 (Folder 07): INTERACTION DESIGN - ONDC KIRANA -->
+    <section class="story-section animate-on-scroll" id="ondc-kirana" data-category="interaction-design" data-label="Interaction Design" data-tagclass="tag-interaction">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I started observing last mile problems.</h2>
+          <p class="story-paragraph">
+            This project explored how a kirana store owner could digitize their inventory without manually entering every product. After speaking with a store owner, I explored voice input and quick selection from a crowdsourced catalog to make cataloguing faster and easier on the move. The prototype received a Special Mention at the ONDC Grand Hackathon.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">Recognition</div>
+            <div class="annotation-desc">Special Award of ₹50,000 sponsored by Sanjeev Gupta, Jury - ONDC Grand Hackathon.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/07/01_image65.png">
+            <img src="assets/07/01_image65.png" alt="Story Tag flow diagram" loading="lazy">
+            <div class="card-caption">Story Tag flow diagram</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/07/03_image66.png">
+            <img src="assets/07/03_image66.png" alt="Nipun Lakshya App UI screens in Hindi" loading="lazy">
+            <div class="card-caption">Nipun Lakshya App UI screens</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/07/04_image67.png">
+            <img src="assets/07/04_image67.png" alt="Oral reading fluency assessment screen" loading="lazy">
+            <div class="card-caption">Oral reading fluency assessment</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/07/07_image68.png">
+            <img src="assets/07/07_image68.png" alt="Student participation flow chart" loading="lazy">
+            <div class="card-caption">Student participation flow chart</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9 (Folder 08): PRODUCT DESIGN - SMALL FRUSTRATIONS -->
+    <section class="story-section animate-on-scroll" id="small-frustrations" data-category="product-design" data-label="Product Design" data-tagclass="tag-product">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Small frustrations became design opportunities.</h2>
+          <p class="story-paragraph">
+            I started solving for real world frustrations. A pen that was difficult to find in my compass box, my parents' difficulty in keeping their phone steady during video calls - I began noticing these moments because I was looking for them. Instead of only asking what I could make, I started asking what was worth making.
+          </p>
+          <div class="hand-note rotate-right">
+            Lego prototype phone stand & pens attached to ruler so they never get lost
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/08/01_image69.png">
+            <img src="assets/08/01_image69.png" alt="ONDC Hackathon Special Award banner" loading="lazy">
+            <div class="card-caption">ONDC Grand Hackathon Special Award</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/08/02_image70.png">
+            <img src="assets/08/02_image70.png" alt="Kirana cataloguing voice app screens" loading="lazy">
+            <div class="card-caption">Kirana inventory digitizing prototype</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/08/03_image71.png">
+            <img src="assets/08/03_image71.png" alt="Voice input inventory entry workflow" loading="lazy">
+            <div class="card-caption">Voice input cataloguing workflow</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10 (Folder 09): PRODUCT DESIGN - 3D PRINTER -->
+    <section class="story-section animate-on-scroll" id="3d-printing" data-category="product-design" data-label="Product Design" data-tagclass="tag-product">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">A 3D printer turned my ideas into products.</h2>
+          <p class="story-paragraph">
+            3D printing gave me a direct connection between an idea and a physical result. I could notice something, measure it, model a solution and print it. Suddenly, an idea did not have to remain a sketch or thought experiment. I could hold it, test it and discover what I had got wrong.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">Key Insight</div>
+            <div class="annotation-desc">Customized pen holders and phone stand with finger holes.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/09/01_image72.png">
+            <img src="assets/09/01_image72.png" alt="Lego phone stand prototype" loading="lazy">
+            <div class="card-caption">Lego phone stand prototype</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/09/02_image73.png">
+            <img src="assets/09/02_image73.png" alt="Lego build details" loading="lazy">
+            <div class="card-caption">Lego build mechanism</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/09/03_image74.png">
+            <img src="assets/09/03_image74.png" alt="Multi-angle phone stand test" loading="lazy">
+            <div class="card-caption">Multi-angle phone test</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/09/07_image75.png">
+            <img src="assets/09/07_image75.png" alt="Tablet stability lego extension" loading="lazy">
+            <div class="card-caption">Tablet stability extension</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/09/08_image76.png">
+            <img src="assets/09/08_image76.png" alt="Ruler-attached pen clip" loading="lazy">
+            <div class="card-caption">Ruler-attached pen clip</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/09/09_image77.png">
+            <img src="assets/09/09_image77.png" alt="Pen clip in use in compass box" loading="lazy">
+            <div class="card-caption">Pen clip in compass box</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 11 (Folder 10): PRODUCT DESIGN - MANUFACTURABILITY -->
+    <section class="story-section animate-on-scroll" id="manufacturability" data-category="product-design" data-label="Product Design" data-tagclass="tag-product">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">3D prototyping made me think of manufacturability.</h2>
+          <p class="story-paragraph">
+            Prototyping made me think beyond form. I started noticing fit, tolerances, mechanisms, assembly and the realities of manufacturing. It also introduced me to new ways in which mechanisms can be built - a hinge that assembles during manufacturing itself. The more I made, the more I understood that manufacturing is not something that happens after design. It is part of design.
+          </p>
+          <div class="hand-note rotate-left">
+            2D sketch before extruding in Fusion360 • Single-print hinge • 3D support graveyard
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/10/01_image78.png">
+            <img src="assets/10/01_image78.png" alt="Siddhant with 3D printer" loading="lazy">
+            <div class="card-caption">3D printer setup</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/10/02_image79.png">
+            <img src="assets/10/02_image79.png" alt="Customized pen holder" loading="lazy">
+            <div class="card-caption">Customized 4-pen ruler clip</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/10/03_image80.png">
+            <img src="assets/10/03_image80.png" alt="3D printed phone stand" loading="lazy">
+            <div class="card-caption">3D printed phone stand with finger holes</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/10/04_image81.png">
+            <img src="assets/10/04_image81.png" alt="Phone stand CAD model in Fusion 360" loading="lazy">
+            <div class="card-caption">Phone stand CAD model</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/10/05_image82.png">
+            <img src="assets/10/05_image82.png" alt="Printed pen clip stress testing" loading="lazy">
+            <div class="card-caption">Printed clip stress testing</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/10/06_image83.png">
+            <img src="assets/10/06_image83.png" alt="Ergonomic finger hole detail" loading="lazy">
+            <div class="card-caption">Ergonomic finger hole detail</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 12 (Folder 11): PRODUCT DESIGN - SMALL EXPERIMENTS -->
+    <section class="story-section animate-on-scroll" id="small-experiments" data-category="product-design" data-label="Product Design" data-tagclass="tag-product">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">My objects became small experiments.</h2>
+          <p class="story-paragraph">
+            A threaded container became a test of whether I could create an airtight seal. A toilet roll holder became a test of material strength. A bottle cap became a test of measurement, fit and iteration. These were small objects, but each one gave me a question that I could answer by making and testing.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">Physical Iterations</div>
+            <div class="annotation-desc">Airtight threaded containers, robot toilet paper holder, repaired jewelry box lid.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/11/01_image84.png">
+            <img src="assets/11/01_image84.png" alt="2D gear sketch in Fusion360" loading="lazy">
+            <div class="card-caption">2D gear sketch in Fusion360</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/11/03_image86.png">
+            <img src="assets/11/03_image86.png" alt="Single print hinge box" loading="lazy">
+            <div class="card-caption">Single-print hinge box mechanism</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/11/04_image87.png">
+            <img src="assets/11/04_image87.png" alt="3D support graveyard" loading="lazy">
+            <div class="card-caption">3D support graveyard</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/11/05_image88.png">
+            <img src="assets/11/05_image88.png" alt="Tolerances and print bed layout" loading="lazy">
+            <div class="card-caption">Tolerances & print bed layout</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/11/07_image90.png">
+            <img src="assets/11/07_image90.png" alt="Assembled hinge test" loading="lazy">
+            <div class="card-caption">Assembled hinge test</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/11/09_image91.png">
+            <img src="assets/11/09_image91.png" alt="Manufacturing flaw iteration analysis" loading="lazy">
+            <div class="card-caption">Manufacturing flaw iteration</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 13 (Folder 12): PRODUCT DESIGN - MAKING WITH HANDS -->
+    <section class="story-section animate-on-scroll" id="making-with-hands" data-category="product-design" data-label="Product Design" data-tagclass="tag-product">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I missed making things with my hands.</h2>
+          <p class="story-paragraph">
+            Digital tools had made making faster, but they also made me appreciate the physical act of building even more. Drawing, cutting, assembling and working with materials gave me a different kind of understanding. I began to see that thinking and making were not separate activities for me. Making was one of the ways I think.
+          </p>
+          <div class="hand-note rotate-right">
+            Hand-drawn temple sketches • Precision plywood sawing • Finished varnished temple
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/12/01_image92.png">
+            <img src="assets/12/01_image92.png" alt="3D printed bottle cap" loading="lazy">
+            <div class="card-caption">3D printed bottle cap matching original thread</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/12/04_image95.png">
+            <img src="assets/12/04_image95.png" alt="Robot toilet paper holder" loading="lazy">
+            <div class="card-caption">Robot emoji toilet roll holder</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/12/06_image97.png">
+            <img src="assets/12/06_image97.png" alt="Repaired jewelry box lid" loading="lazy">
+            <div class="card-caption">Mom's broken jewelry box lid repair</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/12/08_image99.png">
+            <img src="assets/12/08_image99.png" alt="Airtight threaded container prototype" loading="lazy">
+            <div class="card-caption">Airtight threaded container</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/12/09_image100.png">
+            <img src="assets/12/09_image100.png" alt="O-ring rubber seal testing" loading="lazy">
+            <div class="card-caption">O-ring rubber seal testing</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/12/12_image103.png">
+            <img src="assets/12/12_image103.png" alt="Collection of printed test objects" loading="lazy">
+            <div class="card-caption">Collection of printed test objects</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 14 (Folder 13): GAME DESIGN - COR -->
+    <section class="story-section animate-on-scroll" id="cor-game" data-category="game-design" data-label="Game Design" data-tagclass="tag-game">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Can I change the way people interact with the product?</h2>
+          <p class="story-paragraph">
+            This question took me towards games and interaction. With COR, I became interested not just in the product itself, but in what it made people do. A game creates choices, strategies, competition and interaction through its rules. I began to see that design can shape behaviour without directly telling someone what to do.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">COR Game Concept</div>
+            <div class="annotation-desc">Scrabble, but instead of letters - you have colors! 100 wooden squares cut from plywood with a hand saw.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/13/01_image104.png">
+            <img src="assets/13/01_image104.png" alt="Temple sketches" loading="lazy">
+            <div class="card-caption">Hand-drawn temple sketches</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/13/04_image107.png">
+            <img src="assets/13/04_image107.png" alt="Plywood sawing" loading="lazy">
+            <div class="card-caption">Precision plywood hand-sawing</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/13/07_image110.png">
+            <img src="assets/13/07_image110.png" alt="Varnished wooden mandir" loading="lazy">
+            <div class="card-caption">Finished varnished wooden mandir</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/13/08_image111.png">
+            <img src="assets/13/08_image111.png" alt="Detailed carving work close-up" loading="lazy">
+            <div class="card-caption">Detailed carving work close-up</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/13/14_image112.png">
+            <img src="assets/13/14_image112.png" alt="Mandir in home setting" loading="lazy">
+            <div class="card-caption">Mandir in home setting</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 15 (Folder 14): GAME DESIGN - MINI LAGORI -->
+    <section class="story-section animate-on-scroll" id="mini-lagori" data-category="game-design" data-label="Game Design" data-tagclass="tag-game">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Can I design indoor versions of outdoor games while preserving the same emotions?</h2>
+          <p class="story-paragraph">
+            Mini Lagori made this question very real for me. Moving an outdoor game indoors meant changing its scale, environment and physical dynamics. But I did not want to simply make a smaller version. I wanted to understand what made the original experience meaningful i.e. the competition, physical interaction, rebuilding, social play and familiarity.
+          </p>
+          <div class="hand-note rotate-left">
+            Laser cut MDF wood board • Elastic slingshots for indoor target play
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/14/01_image113.png">
+            <img src="assets/14/01_image113.png" alt="COR color palettes game rulebook" loading="lazy">
+            <div class="card-caption">COR color palettes & game rulebook</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/14/04_image117.png">
+            <img src="assets/14/04_image117.png" alt="100 wooden cut squares" loading="lazy">
+            <div class="card-caption">100 hand-cut wooden squares</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/14/05_image118.png">
+            <img src="assets/14/05_image118.png" alt="Varnished COR board game" loading="lazy">
+            <div class="card-caption">Finished COR board game</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/14/06_image119.png">
+            <img src="assets/14/06_image119.png" alt="COR game in active play" loading="lazy">
+            <div class="card-caption">COR game in active play</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 16 (Folder 15): GAME DESIGN - INDIAN GAMES -->
+    <section class="story-section animate-on-scroll" id="indian-games" data-category="game-design" data-label="Game Design" data-tagclass="tag-game">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Can I preserve more Indian games this way?</h2>
+          <p class="story-paragraph">
+            Once I thought about Lagori this way, I started seeing the possibility beyond one game. Indian games carry more than rules. They carry ways of interacting, competing, playing and spending time together. I began wondering whether design could help these experiences find a place in contemporary life.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">Traditional Games Adaptations</div>
+            <div class="annotation-desc">Mini Kabaddi laser-cut box game & Mini Kho-Kho sliding player board.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/15/01_image120.png">
+            <img src="assets/15/01_image120.png" alt="2D sketch and 3D render for laser machine" loading="lazy">
+            <div class="card-caption">2D sketch & 3D render for laser machine</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/15/04_image124.png">
+            <img src="assets/15/04_image124.png" alt="Target stack mini towers" loading="lazy">
+            <div class="card-caption">Target stack mini towers</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/15/06_image126.png">
+            <img src="assets/15/06_image126.png" alt="Mini Lagori board game" loading="lazy">
+            <div class="card-caption">Mini Lagori indoor laser-cut wood board game</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/15/07_image127.png">
+            <img src="assets/15/07_image127.png" alt="Gameplay mechanics diagram" loading="lazy">
+            <div class="card-caption">Gameplay mechanics diagram</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 17 (Folder 16): WEB DESIGN - SMALL COMMUNITIES -->
+    <section class="story-section animate-on-scroll" id="small-communities" data-category="web-design" data-label="Web Design" data-tagclass="tag-web">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I wanted to preserve traditions of small, unsung communities.</h2>
+          <p class="story-paragraph">
+            My curiosity expanded from games to traditions that may not always have the same visibility or reach. I became interested in how digital experiences could help document, communicate and connect people with cultural practices. The question was no longer only about designing a product. It was about what happens to things we value when the world around them changes.
+          </p>
+          <div class="hand-note rotate-right">
+            "आपला बोका" — Fergusson College cat archive website & Kerala Kathakali Center website built with Tailwind CSS
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/16/01_image128.png">
+            <img src="assets/16/01_image128.png" alt="Mini Kabaddi box game" loading="lazy">
+            <div class="card-caption">Mini Kabaddi laser-cut box game</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/16/05_image132.png">
+            <img src="assets/16/05_image132.png" alt="3D printed replacement raider piece" loading="lazy">
+            <div class="card-caption">3D printed replacement raider piece</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/16/06_image133.png">
+            <img src="assets/16/06_image133.png" alt="Mini Kho-Kho board" loading="lazy">
+            <div class="card-caption">Mini Kho-Kho sliding player board</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/16/08_image135.png">
+            <img src="assets/16/08_image135.png" alt="Traditional games set packaging" loading="lazy">
+            <div class="card-caption">Traditional games set packaging</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 18 (Folder 17): PRODUCT DESIGN - BOKA TOY -->
+    <section class="story-section animate-on-scroll" id="boka" data-category="product-design" data-label="Product Design" data-tagclass="tag-product">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">How do you design for someone who can't express themselves?</h2>
+          <p class="story-paragraph">
+            I designed and 3D-printed a toy for Boka, combining two things I thought might catch his attention: a rat and a fish. It looked like a cat toy to me, but Boka barely noticed it. The failure made me question my assumptions: I had designed what I thought a cat would want, without really understanding what Boka actually found interesting. Sometimes the most useful prototype is the one that tells you your idea was wrong.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">Prototype Failure Insight</div>
+            <div class="annotation-desc">Cockamouse rat-fish hybrid cat toy — Boka was uninterested and refused to play!</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/17/01_image137.png">
+            <img src="assets/17/01_image137.png" alt="आपला बोका cat project poster and website" loading="lazy">
+            <div class="card-caption">"आपला बोका" Fergusson College cat archive</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/17/02_image138.png">
+            <img src="assets/17/02_image138.png" alt="Kerala Kathakali Center website" loading="lazy">
+            <div class="card-caption">Kerala Kathakali Center website</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/17/05_image141.png">
+            <img src="assets/17/05_image141.png" alt="आपला बोका cat gallery grid" loading="lazy">
+            <div class="card-caption">"आपला बोका" cat gallery grid</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 19 (Folder 18): HCI RESEARCH - EMOTION & HEALTH -->
+    <section class="story-section animate-on-scroll" id="hci-research" data-category="hci-research" data-label="HCI Research" data-tagclass="tag-hci">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I researched human emotion and how it affects us.</h2>
+          <p class="story-paragraph">
+            I began exploring human emotion through research. This was a different kind of making: instead of starting with an object, I started with literature, evidence, analysis and questions about human behaviour. The work eventually became a paper accepted in the Student Research consortium at the India HCI conference at IIT Hyderabad.
+          </p>
+
+          <div class="step-list">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <div>
+                <div class="step-content-head">RESEARCHED EMOTIONS, HEALTH, MEDIA</div>
+                <div class="step-content-text">Reviewed research on how media elements influence emotions and how emotions affect health.</div>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <div>
+                <div class="step-content-head">CREATED COMMON ONTOLOGY</div>
+                <div class="step-content-text">Mapped relationships onto Scherer's emotion octants.</div>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <div>
+                <div class="step-content-head">CREATED A USEABLE FRAMEWORK</div>
+                <div class="step-content-text">Emotion Trigger Risk (ETR) framework linking media triggers to health risks.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/18/01_image142.png">
+            <img src="assets/18/01_image142.png" alt="Cockamouse 3D print model" loading="lazy">
+            <div class="card-caption">Cockamouse 3D print model</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/18/02_image144.jpeg">
+            <img src="assets/18/02_image144.jpeg" alt="Boka cat ignoring toy" loading="lazy">
+            <div class="card-caption">Boka ignoring the toy</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/18/07_image148.png">
+            <img src="assets/18/07_image148.png" alt="Prototype post-mortem analysis" loading="lazy">
+            <div class="card-caption">Prototype failure post-mortem</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 20 (Folder 19): HCI RESEARCH - AI PROTOTYPE -->
+    <section class="story-section animate-on-scroll" id="ai-prototype" data-category="hci-research" data-label="HCI Research" data-tagclass="tag-hci">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Can I use AI to create a prototype that does this?</h2>
+          <p class="story-paragraph">
+            That question led me to experiment with AI as a design and research tool. I created a prototype that could take an image and analyse the emotions using the ETR framework and expressed potential health risks it might trigger. What interested me was not simply making an AI prototype, but seeing whether technology could help investigate something as complex as human emotion.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">AI Prototype</div>
+            <div class="annotation-desc">Emotional Trigger Risk Analyzer web application built with Google Antigravity & AI-assisted coding.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/19/01_image149.jpeg">
+            <img src="assets/19/01_image149.jpeg" alt="India HCI 2026 paper snippet" loading="lazy">
+            <div class="card-caption">India HCI 2026 paper snippet</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/19/03_image150.png">
+            <img src="assets/19/03_image150.png" alt="Emotion ontology mapping" loading="lazy">
+            <div class="card-caption">Emotion ontology mapping</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/19/07_image151.png">
+            <img src="assets/19/07_image151.png" alt="Scherer's emotion octants wheel and ETR table" loading="lazy">
+            <div class="card-caption">Emotion octants & ETR framework table</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/19/09_image153.png">
+            <img src="assets/19/09_image153.png" alt="Final research paper abstract" loading="lazy">
+            <div class="card-caption">Final research paper abstract</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 21 (Folder 20): AI BENCHMARKING -->
+    <section class="story-section animate-on-scroll" id="ai-benchmarking" data-category="ai-benchmarking" data-label="AI Benchmarking" data-tagclass="tag-ai">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">Existential Question: Can AI do what a designer does?</h2>
+          <p class="story-paragraph">
+            I started benchmarking AI models for emotion detection and comparing different image-generation tools. I wanted to move beyond simply using AI and start asking what it can actually do, how we evaluate its output, where it falls short, and what role remains for human creativity. AI can execute well, but struggles to conceptualize beyond the direction it is given. I often need to provide extremely detailed prompts to get the result I have in mind. But knowing what to conceptualize and whether it is worth conceptualizing still feels distinctly human.
+          </p>
+          <div class="annotation-box">
+            <div class="annotation-title">AI Benchmarking Findings</div>
+            <div class="annotation-desc">Compared Gemini 2.5 vs Qwen 3.6 vs Claude Haiku 4.5 across 100 media images; DALL-E vs Midjourney rendering comparison.</div>
+          </div>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card" data-lightbox="assets/20/01_image154.jpeg">
+            <img src="assets/20/01_image154.jpeg" alt="Emotional Trigger Risk Analyzer mockup" loading="lazy">
+            <div class="card-caption">Emotional Trigger Risk Analyzer mockup</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/20/02_image155.png">
+            <img src="assets/20/02_image155.png" alt="ETR framework media analysis data tables" loading="lazy">
+            <div class="card-caption">ETR framework analysis data tables</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/20/03_image156.png">
+            <img src="assets/20/03_image156.png" alt="Emotion detection pipeline" loading="lazy">
+            <div class="card-caption">Emotion detection pipeline</div>
+          </div>
+          <div class="scroll-image-card" data-lightbox="assets/20/06_image158.png">
+            <img src="assets/20/06_image158.png" alt="Risk report summary UI card" loading="lazy">
+            <div class="card-caption">Risk report summary UI card</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 22 (Folder 21): CONCLUSION / FUTURE -->
+    <section class="story-section animate-on-scroll" id="future" data-category="none">
+      <div class="section-body-grid">
+        <div class="story-text-col">
+          <h2 class="story-heading">I am still figuring out where this leads...</h2>
+          <p class="story-paragraph">
+            I started with objects, but gradually became interested in what happens around them - the emotions they create, the behaviours they encourage and the experiences they become part of. As AI changes how things are made, I want to keep exploring what humans bring that technology cannot: empathy, imagination, context and judgement. I want to make things that are not only functional, but meaningful to the people and environments they become part of.
+          </p>
+        </div>
+
+        <div class="images-scroll-col">
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/21/01_image159.png">
+            <img src="assets/21/01_image159.png" alt="DALL-E vs Midjourney rendering comparison" loading="lazy">
+            <div class="card-caption">DALL-E vs Midjourney rendering comparison</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/21/04_image162.png">
+            <img src="assets/21/04_image162.png" alt="LLM evaluation table & pipeline architecture diagram" loading="lazy">
+            <div class="card-caption">LLM evaluation & pipeline architecture</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/21/08_image163.png">
+            <img src="assets/21/08_image163.png" alt="Model accuracy comparison chart" loading="lazy">
+            <div class="card-caption">Model accuracy comparison chart</div>
+          </div>
+          <div class="scroll-image-card tilt-right" data-lightbox="assets/21/13_image168.png">
+            <img src="assets/21/13_image168.png" alt="AI vs Human design judgment benchmark table" loading="lazy">
+            <div class="card-caption">AI vs Human design judgment benchmark</div>
+          </div>
+          <div class="scroll-image-card tilt-left" data-lightbox="assets/21/34_image183.png">
+            <img src="assets/21/34_image183.png" alt="Design synthesis roadmap diagram" loading="lazy">
+            <div class="card-caption">Design synthesis roadmap</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer-section">
+    <div class="footer-content">
+      <h2 class="footer-heading serif-heading">Siddhant Kulkarni</h2>
+      <p>12th grader at Fergusson College, Pune • Design Portfolio 2026–27</p>
+
+      <div class="footer-thank-you" id="btnThankYouConfetti">thank You</div>
+
+      <div class="hero-cta-group">
+        <a href="Siddhant Portfolio 2026-27.pdf" target="_blank" class="btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>VIEW ORIGINAL PDF FALLBACK</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- HIGH-RESOLUTION LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-header">
+      <span class="lightbox-caption" id="lightboxCaption">Image Preview</span>
+      <div style="display: flex; gap: 0.5rem;">
+        <button class="icon-btn" id="btnZoomIn" title="Zoom In">+</button>
+        <button class="icon-btn" id="btnZoomOut" title="Zoom Out">-</button>
+        <button class="icon-btn" id="btnCloseLightbox" title="Close (Esc)">✕</button>
+      </div>
+    </div>
+    <div class="lightbox-stage" id="lightboxStage">
+      <div class="lightbox-img-wrapper" id="lightboxImgWrapper">
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
 
