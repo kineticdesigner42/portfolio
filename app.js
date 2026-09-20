@@ -4,6 +4,11 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  document.querySelectorAll('.glance-grid a').forEach(link => {
+    link.addEventListener('click', e => e.preventDefault());
+    link.removeAttribute('href');
+  });
+
   // DOM Elements
   const btnHamburger = document.getElementById('btnHamburger');
   const hamburgerDrawer = document.getElementById('hamburgerDrawer');
@@ -27,6 +32,38 @@ document.addEventListener('DOMContentLoaded', () => {
   let isDragging = false;
   let startX = 0, startY = 0, translateX = 0, translateY = 0;
 
+/* ==========================================================================
+   JOURNEY INDEX — ENABLE LINKS ONLY AFTER ENTIRE PAGE LOADS
+   ========================================================================== */
+
+const glanceGrid = document.querySelector('.glance-grid');
+
+  if (glanceGrid) {
+
+    let pageFullyLoaded = false;
+
+    // Disable index links initially
+    const glanceLinks = glanceGrid.querySelectorAll('a');
+
+    glanceLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (!pageFullyLoaded) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      });
+    });
+
+    // Enable links only after the entire page has loaded
+    if (document.readyState === 'complete') {
+      pageFullyLoaded = true;
+    } else {
+      window.addEventListener('load', () => {
+        pageFullyLoaded = true;
+      }, { once: true });
+    }
+  }
+  
   /* ==========================================================================
      1. HAMBURGER MENU DRAWER TOGGLE LOGIC
      ========================================================================== */
@@ -246,5 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 3500);
     }
   }
+
+
 
 });

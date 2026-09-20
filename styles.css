@@ -764,6 +764,16 @@ p {
    JOURNEY AT A GLANCE
    ========================================================================== */
 
+/* Disable index links until the entire page has loaded */
+.glance-grid.index-disabled {
+  pointer-events: none;
+}
+
+.glance-grid.index-disabled .glance-item {
+  cursor: default;
+}
+
+
 /* Milestones */
 
 .glance-milestones {
