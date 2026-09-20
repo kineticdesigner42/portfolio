@@ -786,7 +786,7 @@ p {
 
 @media (max-width: 768px) {
   :root {
-    --nav-height: 56px;
+    --nav-height: 64px;
   }
 
   .top-navbar {
@@ -794,7 +794,7 @@ p {
   }
 
   .nav-brand {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .hero-section {
