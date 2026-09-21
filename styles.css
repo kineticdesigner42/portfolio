@@ -904,6 +904,21 @@ p {
   transform: translateY(0);
 }
 
+/* Responsive videos across the entire portfolio */
+.scroll-video-card {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.scroll-video-card video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
 /* Responsive Layout Adjustments */
 @media (max-width: 960px) {
   .section-body-grid {
